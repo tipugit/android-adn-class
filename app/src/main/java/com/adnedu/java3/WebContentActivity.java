@@ -15,6 +15,8 @@ public class WebContentActivity extends AppCompatActivity {
         web = (WebView)findViewById(R.id.wvWeb);
         web.getSettings().setJavaScriptEnabled(true);
         web.loadUrl("https://www.prothomalo.com/");
+        web.canGoBack();
+        web.zoomIn();
 
     }
 }
