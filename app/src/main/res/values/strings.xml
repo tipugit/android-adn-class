@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ADN Java</string>
+    <string name="login_username">Enter Your username</string>
+    <string name="login_pass">Enter Password</string>
+    <string name="login_button">Login</string>
+
+
+</resources>
