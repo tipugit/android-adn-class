@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DashboardActivity">
-    <TextView
-        android:id="@+id/tvUsername"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Login hoiche"
-        android:textSize="32sp"
-        android:gravity="center"
-        />
+    tools:context=".DashboardActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+   >
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_light_background"
+        android:text="নিউজ পেপার"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+<ImageButton
+    android:id="@+id/btnProthom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/prothom"
+    />
+
+<ImageButton
+    android:id="@+id/btnIttefaq"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/itte"
+    />
+
+
+</LinearLayout>
+
+
